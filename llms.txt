@@ -1,0 +1,15 @@
+# AgenticsSEO.com
+
+> Agentic SEO explained: how businesses make themselves discoverable, understandable and recommendable to AI assistants and agents such as ChatGPT, Claude, Perplexity and Gemini, alongside traditional search. Operated by Eye To Ad Media (Denver, Colorado, founded 2012). Phone: 1-800-481-8638.
+
+## Guides
+
+- [What Is Agentic SEO](https://agenticsseo.com/what-is-agentic-seo/): plain-language definition and how AI agents find and choose businesses
+- [Agentic SEO vs Traditional SEO](https://agenticsseo.com/agentic-seo-vs-traditional-seo/): how optimizing for AI agents differs from classic SEO, GEO and AEO
+- [Agentic SEO Services](https://agenticsseo.com/agentic-seo-services/): what an agent-readiness engagement covers and how to request a free AI visibility check
+
+## Reference
+
+- [Home and FAQ](https://agenticsseo.com/): overview, agent-ready scorecard and frequently asked questions
+- [HTML sitemap](https://agenticsseo.com/sitemap.html)
+- [XML sitemap](https://agenticsseo.com/sitemap.xml)

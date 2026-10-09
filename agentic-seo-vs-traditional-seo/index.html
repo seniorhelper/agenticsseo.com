@@ -735,14 +735,13 @@ footer{background:var(--midnight-2);border-top:1px solid var(--line);position:re
       <a href="/agentic-seo-services/">Agentic SEO Services</a>
       <a href="/#scorecard">Free agent-ready scorecard</a>
       <a href="tel:18004818638">Call 1-800-481-8638</a>
-      <a href="https://www.eyetoad.com" target="_blank" rel="noopener">Eye To Ad Media</a>
     </div>
     <div class="foot-col">
       <h4>Resources</h4>
       <a href="/sitemap.xml">XML Sitemap</a>
       <a href="/sitemap.html">HTML Sitemap</a>
       <a href="/robots.txt">Robots.txt</a>
-      <a href="mailto:info@eyetoad.com">info@eyetoad.com</a>
+      <a class="eml" href="/#faq" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20="></a>
     </div>
   </div>
   <div class="foot-bottom">
@@ -820,6 +819,10 @@ window.addEventListener('load',function(){
   },{threshold:0.3});
   if(tl) tlObs.observe(tl);
 });
+</script>
+<script>
+/* email links assembled at runtime */
+(function(){document.querySelectorAll('a.eml').forEach(function(a){var e=atob(a.getAttribute('data-a'))+String.fromCharCode(64)+atob(a.getAttribute('data-b'));var s=a.getAttribute('data-s');a.href='mailto:'+e+(s?'?subject='+encodeURIComponent(s):'');if(!a.textContent.trim()){a.textContent=e;}});})();
 </script>
 </body>
 </html>

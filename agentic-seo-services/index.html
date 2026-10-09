@@ -792,7 +792,7 @@ footer{background:var(--ink);color:var(--paper);position:relative;z-index:1}
       <p class="lead">No cost, no obligation. We'll ask the major assistants the buying questions in your category and show you exactly where you stand. It's the clearest first step, and it usually surprises people.</p>
       <ul class="contact-list">
         <li><span class="ic">&#128222;</span> Call <b>1-800-481-8638</b> or <b>720-249-6588</b></li>
-        <li><span class="ic">&#9993;&#65039;</span> Email <b>sales@eyetoad.com</b></li>
+        <li><span class="ic">&#9993;&#65039;</span> Email <b><a class="eml" href="#contact" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=" style="color:inherit"></a></b></li>
         <li><span class="ic">&#128205;</span> 1001 Bannock St Suite 660, Denver CO 80204</li>
       </ul>
     </div>
@@ -801,7 +801,7 @@ footer{background:var(--ink);color:var(--paper);position:relative;z-index:1}
       <div class="ct-phone"><a href="tel:18004818638">1-800-481-8638</a></div>
       <div class="ct-sub">Eye To Ad Media &middot; Denver, CO &middot; since 2012</div>
       <a href="tel:18004818638" class="btn btn-primary">Call for my free AI visibility check</a>
-      <a href="mailto:sales@eyetoad.com?subject=Agentic%20SEO%20Visibility%20Check" class="btn btn-ghost" style="color:var(--paper);border-color:rgba(255,255,255,.3)">Email us instead</a>
+      <a class="eml btn btn-ghost" href="#contact" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=" data-s="Agentic SEO Visibility Check" style="color:var(--paper);border-color:rgba(255,255,255,.3)">Email us instead</a>
     </div>
   </div>
 </div>
@@ -825,14 +825,13 @@ footer{background:var(--ink);color:var(--paper);position:relative;z-index:1}
       <a href="#contact">Free AI visibility check</a>
       <a href="/#scorecard">Agent-ready scorecard</a>
       <a href="tel:18004818638">Call 1-800-481-8638</a>
-      <a href="https://www.eyetoad.com" target="_blank" rel="noopener">Eye To Ad Media</a>
     </div>
     <div class="foot-col">
       <h4>Resources</h4>
       <a href="/sitemap.xml">XML Sitemap</a>
       <a href="/sitemap.html">HTML Sitemap</a>
       <a href="/robots.txt">Robots.txt</a>
-      <a href="mailto:info@eyetoad.com">info@eyetoad.com</a>
+      <a class="eml" href="/#faq" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20="></a>
     </div>
   </div>
   <div class="foot-bottom">
@@ -946,6 +945,10 @@ window.addEventListener('load',function(){
   },{threshold:0.3});
   if(fo) foObs.observe(fo);
 });
+</script>
+<script>
+/* email links assembled at runtime */
+(function(){document.querySelectorAll('a.eml').forEach(function(a){var e=atob(a.getAttribute('data-a'))+String.fromCharCode(64)+atob(a.getAttribute('data-b'));var s=a.getAttribute('data-s');a.href='mailto:'+e+(s?'?subject='+encodeURIComponent(s):'');if(!a.textContent.trim()){a.textContent=e;}});})();
 </script>
 </body>
 </html>
